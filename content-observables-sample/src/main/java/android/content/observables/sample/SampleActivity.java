@@ -1,7 +1,6 @@
-package rx.android.content.sample;
+package android.content.observables.sample;
 
 import android.app.Activity;
-import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.widget.TextView;
 import butterknife.ButterKnife;

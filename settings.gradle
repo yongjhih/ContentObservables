@@ -1,2 +1,2 @@
-include ':rx-content'
-//include ':rx-content-sample'
+include ':content-observables'
+include ':content-observables-sample'

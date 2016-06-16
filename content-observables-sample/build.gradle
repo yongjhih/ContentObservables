@@ -10,7 +10,7 @@ android {
   }
 
   defaultConfig {
-    applicationId 'rx.android.content.sample'
+    applicationId 'android.content.observables.sample'
     minSdkVersion rootProject.ext.minSdkVersion
     targetSdkVersion rootProject.ext.targetSdkVersion
     versionCode 1
@@ -25,7 +25,7 @@ android {
 }
 
 dependencies {
-  compile project(':rx-content')
+  compile project(':content-observables')
   compile deps.rxandroid
   compile deps.rxbinding
   compile deps.butterknife
