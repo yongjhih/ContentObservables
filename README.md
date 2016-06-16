@@ -3,7 +3,7 @@
 [![JitPack](https://img.shields.io/github/tag/yongjhih/content-observables.svg?label=JitPack)](https://jitpack.io/#yongjhih/content-observables)
 [![javadoc](https://img.shields.io/github/tag/yongjhih/content-observables.svg?label=javadoc)](https://jitpack.io/com/github/yongjhih/content-observables/-SNAPSHOT/javadoc/)
 [![Build Status](https://travis-ci.org/yongjhih/content-observables.svg)](https://travis-ci.org/yongjhih/content-observables)
-[![Coverage Status](https://coveralls.io/repos/github/yongjhih/content-observables/badge.svg)](https://coveralls.io/github/yongjhih/content-observables)
+<!--[![Coverage Status](https://coveralls.io/repos/github/yongjhih/content-observables/badge.svg)](https://coveralls.io/github/yongjhih/content-observables)-->
 
 ## Usage
 
@@ -37,18 +37,6 @@ dependencies {
     compile 'com.github.yongjhih:content-observables:-SNAPSHOT'
     //compile 'com.github.yongjhih:content-observables:0.0.1'
 }
-```
-
-### Test
-
-```sh
-./gradlew :content-observables:test
-```
-
-### Coverage
-
-```sh
-./gradlew :content-observables:jacocoTestReport
 ```
 
 ## License
