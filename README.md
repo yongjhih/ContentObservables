@@ -1,4 +1,4 @@
-# Rx Content
+# ContentObservables
 
 [![JitPack](https://img.shields.io/github/tag/yongjhih/rx-content.svg?label=JitPack)](https://jitpack.io/#yongjhih/rx-content)
 [![javadoc](https://img.shields.io/github/tag/yongjhih/rx-content.svg?label=javadoc)](https://jitpack.io/com/github/yongjhih/rx-content/-SNAPSHOT/javadoc/)
@@ -8,19 +8,19 @@
 ## Usage
 
 ```java
-ContentResolvers.from(context).with(handler).on(uri).subscribe(changed -> changed ? button.on() : button.off());
+ContentObservables.from(context).with(handler).on(uri).subscribe(changed -> changed ? button.on() : button.off());
 ```
 
 ```java
-ContentResolvers.from(context).with(handler).on(uri).subscribe((changed, uri) -> changed ? button.on() : button.off());
+ContentObservables.from(context).with(handler).on(uri).subscribe((changed, uri) -> changed ? button.on() : button.off());
 ```
 
 ```java
-ContentResolvers.from(context).on(uri).subscribe(new LambdaContentObserver(handler).onChange((changed, uri) -> changed ? button.on() : button.off());
+ContentObservables.from(context).on(uri).subscribe(new LambdaContentObserver(handler).onChange((changed, uri) -> changed ? button.on() : button.off());
 ```
 
 ```java
-ContentResolvers.from(context).on(uri).subscribe(new LambdaContentObserver(handler).onChange(changed -> changed ? button.on() : button.off());
+ContentObservables.from(context).on(uri).subscribe(new LambdaContentObserver(handler).onChange(changed -> changed ? button.on() : button.off());
 ```
 
 ## Installation
