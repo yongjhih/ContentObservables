@@ -1,9 +1,9 @@
 # ContentObservables
 
-[![JitPack](https://img.shields.io/github/tag/yongjhih/rx-content.svg?label=JitPack)](https://jitpack.io/#yongjhih/rx-content)
-[![javadoc](https://img.shields.io/github/tag/yongjhih/rx-content.svg?label=javadoc)](https://jitpack.io/com/github/yongjhih/rx-content/-SNAPSHOT/javadoc/)
-[![Build Status](https://travis-ci.org/yongjhih/rx-content.svg)](https://travis-ci.org/yongjhih/rx-content)
-[![Coverage Status](https://coveralls.io/repos/github/yongjhih/rx-content/badge.svg)](https://coveralls.io/github/yongjhih/rx-content)
+[![JitPack](https://img.shields.io/github/tag/yongjhih/content-observables.svg?label=JitPack)](https://jitpack.io/#yongjhih/content-observables)
+[![javadoc](https://img.shields.io/github/tag/yongjhih/content-observables.svg?label=javadoc)](https://jitpack.io/com/github/yongjhih/content-observables/-SNAPSHOT/javadoc/)
+[![Build Status](https://travis-ci.org/yongjhih/content-observables.svg)](https://travis-ci.org/yongjhih/content-observables)
+[![Coverage Status](https://coveralls.io/repos/github/yongjhih/content-observables/badge.svg)](https://coveralls.io/github/yongjhih/content-observables)
 
 ## Usage
 
@@ -34,21 +34,21 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.yongjhih:rx-content:-SNAPSHOT'
-    //compile 'com.github.yongjhih:rx-content:0.0.1'
+    compile 'com.github.yongjhih:content-observables:-SNAPSHOT'
+    //compile 'com.github.yongjhih:content-observables:0.0.1'
 }
 ```
 
 ### Test
 
 ```sh
-./gradlew :rx-content:test
+./gradlew :content-observables:test
 ```
 
 ### Coverage
 
 ```sh
-./gradlew :rx-content:jacocoTestReport
+./gradlew :content-observables:jacocoTestReport
 ```
 
 ## License
