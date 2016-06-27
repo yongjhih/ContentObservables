@@ -45,13 +45,11 @@ public class ContentObservables {
 
     public ContentObservables subscribe(LambdaContentObserver.Action1<Boolean> onChange) {
         if (handler == null) throw new IllegalStateException();
-        context.getContentResolver().registerContentObserver(uri, descendants, new LambdaContentObserver(handler).onChange(onChange));
-        return this;
+        return subscribe(new LambdaContentObserver(handler).onChange(onChange));
     }
 
     public ContentObservables subscribe(LambdaContentObserver.Action2<Boolean, Uri> onChange) {
         if (handler == null) throw new IllegalStateException();
-        context.getContentResolver().registerContentObserver(uri, descendants, new LambdaContentObserver(handler).onChange(onChange));
-        return this;
+        return subscribe(new LambdaContentObserver(handler).onChange(onChange));
     }
 }
